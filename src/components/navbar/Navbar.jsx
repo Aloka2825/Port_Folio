@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className='w-full h-24 mx-auto flex sticky top-0 z-50 bg-bodyColor justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4 md:px-8'>
       <div className='h-full w-16'>
-        <img src={logo} alt="logo" className='h-full w-full object-contain' />
+        <a href="#" rel="noopener noreferrer"><img src={logo} alt="logo" className='h-full w-full object-contain' /></a>
       </div>
       <div className='hidden md:flex'>
         <ul className='flex items-center gap-10'>
