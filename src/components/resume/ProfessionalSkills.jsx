@@ -1,15 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ResumeCard from "./ResumeCard";
 
 function ProfessionalSkills() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex gap-20"
+      className="w-full flex flex-col md:flex-row gap-20"
     >
-      <div className="w-full justify-between">
+      <div className="w-full md:w-1/2">
         <div className="py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">
             Professional Skills
@@ -118,7 +117,7 @@ function ProfessionalSkills() {
         </div>
 
       </div>
-      <div className="w-full justify-between">
+      <div className="w-full md:w-1/2">
         <div className="py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">
             Professional Skills
