@@ -15,8 +15,8 @@ function ContactLeft() {
         <h3 className="text-3xl font-bold text-white">Aloka Moharana</h3>
         <p className="text-lg font-normal text-gray-400">.NET Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ullam
-          dolore sit quasi dolorum dolorem.
+          Accomplished .NET Developer skilled in front-end and back-end
+          development, cloud tech, and databases. Expert in C#, ASP.NET, React.
         </p>
         <p className="text-base text-gray-400 items-center flex gap-2">
           Phone: <span className="text-lightText">+91 9937535345</span>
@@ -30,7 +30,7 @@ function ContactLeft() {
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
-        <div className="flex gap-4">
+        <div className="flex gap-4 justify-center">
           <a
             href="https://www.linkedin.com/in/aloka-moharana-8660a0254/"
             target="_blank"
