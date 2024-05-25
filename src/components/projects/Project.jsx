@@ -35,7 +35,7 @@ function Project() {
           title="EMI Calculator"
           desc="The EMI Calculator is a .NET application that accurately computes Equated Monthly Installments for loans, featuring a user-friendly interface for detailed principal and interest breakdowns over the loan tenure."
           src={projectThree}
-          gitLink="https://github.com/Aloka2825/EMI_Calculator"
+          gitLink="https://github.com/Aloka2825/EMICalculator"
         />
         <ProjectCard
           title="Online Library management System"
